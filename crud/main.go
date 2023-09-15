@@ -19,5 +19,5 @@ func main(){
 	r.PUT("/api/:id", controllers.UsersUpdate)
 	r.DELETE("/api/:id", controllers.UsersDelete)
 
-	r.Run() // listen and serve on
+	r.Run(":80") // listen and serve on
 }
