@@ -1,2 +1,2 @@
-go build -o bin/api ./
-./bin/api
+go build -tags main.go -ldflags '-s -w' -o app
+./app
