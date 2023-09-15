@@ -1,6 +1,6 @@
 module github.com/0xAckerMan/HNGx/crud
 
-go 1.21.1
+go 1.21
 
 require (
 	github.com/bytedance/sonic v1.9.1 // indirect
